@@ -36,9 +36,10 @@ class _MyHomePageState extends State<MyHomePage> {
         children: [
           _buildpage(
               page: '1',
-              image: imagesurl[0],
-              title: titles[0],
-              description: description[0]),
+              image: 'assets/images/one.jpg',
+              title: 'Yosemite National Park',
+              description:
+                  'Yosemite National Park is in California’s Sierra Nevada mountains. It’s famed for its giant, ancient sequoia trees, and for Tunnel View, the iconic vista of towering Bridalveil Fall and the granite cliffs of El Capitan and Half Dome.'),
           _buildpage(
               page: '2',
               image: imagesurl[1],
